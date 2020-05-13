@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="logo">
+        <h1>Twój szczęśliwy numerek</h1>
+    </header>
+
+    <div id="content"></div>
+
+    <div id="content_box">
+        <p id="text"></p>
+    </div>
+
+    <div class="box">
+        <form id="myForm">
+            <input type="text" id="number1" class="num" min="1" max="48">
+            <input type="text" id="number2" class="num" min="1" max="48">
+            <input type="text" id="number3" class="num" min="1" max="48">
+            <input type="text" id="number4" class="num" min="1" max="48">
+            <input type="text" id="number5" class="num" min="1" max="48">
+            <input type="text" id="number6" class="num" min="1" max="48">
+        </form>
+        <button id="bt">Ok</button>
+        <button id="btn">Losuj</button>
+        <button id="refresh">Jeszcze raz</button>
+    </div>
+    
+    <div id="container">
+        <h3>Wylosowana liczba to: <span id="result"></span></h3>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
